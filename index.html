@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>株式会社UME</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		/* 1枚目の写真を右上に配置するスタイル */
+		#photo1 {
+			position: absolute;
+            top: 10px;
+            right: 320px;
+		}
+		/* 2枚目の写真を左側に配置するスタイル */
+		#photo2 {
+			float: left;
+			margin-right: 100px;
+			top: 10px;
+		}
+
+		/* h1タグを右寄せにするスタイル */
+		div
+		{
+			text-align: left;
+			margin-right: 50px;
+		}
+		h1 {
+			font-size: 25px;
+            margin: 90px;
+            margin-right: 50%;
+            transform: translateX(-25%);
+            white-space: nowrap;
+		}
+
+		h2 {
+			font-size: 25px;
+            margin: 100px;
+            margin-right: 50%;
+            transform: translateX(-5%);
+            white-space: nowrap;
+			text-align: left;
+			line-height: 1;
+		}
+
+		h3 {
+			text-align: left;
+			margin-right: 50px;
+			font-size: 20px;
+            margin: 90px;
+            margin-right: 50%;
+            transform: translateX(-5%);
+            white-space: nowrap;
+			line-height: 1;
+		}
+
+		/* サービスのセクション */
+		.services {
+			margin: 50px 0;
+		}
+
+		.services h2 {
+			margin: 0;
+		    margin-top: -50px; /* 上に50px移動 */
+		}
+
+		.services .service {
+			margin-top: 30px;
+		}
+
+		.services .service h3 {
+			margin: 0;
+		}
+
+		/* お問い合わせのセクション */
+		.contact {
+			margin: 50px 0;
+			
+		}
+
+		.contact h2 {
+			margin: 0;
+			margin-top: -50px; /* 上に50px移動 */
+		}
+
+		.contact {
+    margin: 50px 0;
+    float: right; /* 右に寄せる */
+}
+
+.contact form {
+    /* 余白調整 */
+    margin-right: -320px;
+    margin-top: -450px;
+	text-align: left;
+	
+}
+
+.contact-header {
+  float: right;
+  margin-right: 40px;
+  margin-top: -430px;
+}
+
+button {
+    text-align: right;
+}
+
+.contact form button {
+    text-align: center;
+	float: right;
+	position: relative;
+    top: -80px; /* 例えば50px上に移動させる */
+}
+
+/* フォームのinput要素の間隔を狭める */
+form input {
+  margin-bottom: 3px; /* 下の余白を10pxに変更 */
+}
+#message {
+  position: relative;
+  top: -5px; /* 移動する距離 */
+}
+	</style>
+</head>
+<body>
+	<img img id="photo1" src="c7d2e0ebf23b80295fca6569e9c1179a37506721.png" alt="画像の説明" width="300" height="100">
+	<img img id="photo2" src="2023-05-08 102702.png" alt="画像の説明" width="900" height="800">
+
+	<main>
+		<section class="services">
+			<h1>Coconサービスのご案内</h1>
+			<h2>サービスリンク</h2>
+			<div class="service">
+				<h3><a href="https://www.coc-on.com/" target="_blank">SaaS管理画面</a></h3>
+			</div>
+			<div class="service">
+				<h3><a href="https://ume-group.zendesk.com/hc/ja" target="_blank">マニュアル</a></h3>
+			</div>
+		</section>
+		<section class="about-us">
+		</section>
+		<section class="contact">
+			<style>
+				body {
+				  background-color: rgb(177, 195, 195);
+				}
+				
+			  </style>
+<section class="contact-header">
+	<h2>お問い合わせ</h2>
+  </section>
+  <section class="contact-form">
+	<form action="https://api.staticforms.xyz/submit" method="POST">
+		<div class="form-group text-left">
+		<label for="name">お名前:</label>
+		<input type="text" id="name" name="name" required><br>
+		<label for="email">メールアドレス:</label>
+		<input type="email" id="email" name="email" required><br>
+		<label for="subject">件名:</label>
+		<input type="text" id="subject" name="subject" required><br>
+		<label for="message">お問い合わせ内容:</label>
+		<textarea id="message" name="message" rows="5" cols="50" required></textarea><br>
+		<button type="submit" class="btn btn-primary" >送信</button>
+		<input type="hidden" name="accessKey" value="4bd39bda-f4f8-49c9-a5fb-beb63b1a4961">
+	</div>
+	  </form>
+		</section>
+	</main>
+</body>

@@ -1,0 +1,152 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header {
+	background-color: #8b8a80;
+	color: #00ffcc;
+	padding: 40px 0;
+	text-align: center;
+	
+}
+
+.cocon-info {
+	margin-top: 150px;
+  }
+  
+header h1 {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+div.h1-container {
+    float: left;
+}
+
+h1 {
+	font-size: 25px;
+	margin: 100px;
+
+}
+
+h2 {
+	font-size: 24px;
+	margin: 40px 0 20px;
+	
+}
+
+h2 span,
+h3 span {
+	color: #000000;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color:rgb(177, 195, 195);
+	border: none; /* 枠を取り除く */
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+  }
+  
+  textarea {
+	height: 50px;
+
+  }
+  
+  button[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
+  
+  form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #000000;
+	margin-bottom: 20px;
+}
+
+form button {
+	background-color: #000000;
+	color: #000000;
+	padding: 10px 20px;
+	border:none
+}
+
+input[type="text"],
+input[type="email"] {
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+
