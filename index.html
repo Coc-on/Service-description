@@ -7,7 +7,7 @@
 	<style>
 		/* 1枚目の写真を右上に配置するスタイル */
 		#photo1 {
-			position: absolute;
+			position: fixed;
             top: 10px;
             right: 320px;
 		}
@@ -25,6 +25,7 @@
 			margin-right: 50px;
 		}
 		h1 {
+			position: fixed;
 			font-size: 25px;
             margin: 90px;
             margin-right: 50%;
@@ -58,17 +59,36 @@
 			margin: 50px 0;
 		}
 
+		.services h1 {
+			margin: 0;
+		    margin-top: 30px; /* 上に50px移動 */
+			margin-left: 640px; 
+			position: fixed;
+		}
+
 		.services h2 {
 			margin: 0;
-		    margin-top: -50px; /* 上に50px移動 */
+		    margin-top: 100px; /* 上に50px移動 */
+			margin-left: 619px; 
+			position: fixed;
 		}
 
 		.services .service {
 			margin-top: 30px;
 		}
 
-		.services .service h3 {
+		.services .service1 {
 			margin: 0;
+			margin-top: 50px; /* 上に50px移動 */
+			margin-left: 525px; 
+			position: fixed;
+		}
+
+		.services .service2 {
+			margin: 0;
+			margin-top: 90px; /* 上に50px移動 */
+			margin-left: 525px; 
+			position: fixed;
 		}
 
 		/* お問い合わせのセクション */
@@ -80,6 +100,7 @@
 		.contact h2 {
 			margin: 0;
 			margin-top: -50px; /* 上に50px移動 */
+			position: fixed;
 		}
 
 		.contact {
@@ -89,27 +110,32 @@
 
 .contact form {
     /* 余白調整 */
-    margin-right: -320px;
-    margin-top: -450px;
+	position: fixed;
+    margin-right: -400px;
+    margin-top: 200px;
 	text-align: left;
-	
+    margin-left: -205px; 
 }
 
 .contact-header {
+  position: fixed;
   float: right;
-  margin-right: 40px;
-  margin-top: -430px;
+  margin-right: 100px;
+  margin-top: 220px;
+  margin-left: -180px;
 }
 
 button {
     text-align: right;
+	position: fixed;
 }
 
 .contact form button {
+	position: fixed;
     text-align: center;
 	float: right;
 	position: relative;
-    top: -80px; /* 例えば50px上に移動させる */
+    top: -25px; /* 例えば50px上に移動させる */
 }
 
 /* フォームのinput要素の間隔を狭める */
@@ -130,10 +156,10 @@ form input {
 		<section class="services">
 			<h1>Coconサービスのご案内</h1>
 			<h2>サービスリンク</h2>
-			<div class="service">
+			<div class="service1">
 				<h3><a href="https://www.coc-on.com/" target="_blank">SaaS管理画面</a></h3>
 			</div>
-			<div class="service">
+			<div class="service2">
 				<h3><a href="https://ume-group.zendesk.com/hc/ja" target="_blank">マニュアル</a></h3>
 			</div>
 		</section>
